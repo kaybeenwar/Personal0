@@ -8,68 +8,91 @@
 </head>
 <body>
 <header class="site-header">
-<div class="container nav">
-<a class="brand" href="index.html">Brayan Kabore</a>
-<nav class="top-nav">
-<a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-</nav>
-</div>
+  <div class="container nav">
+    <a class="brand" href="index.html">Brayan Kabore</a>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
 </header>
+
 <main class="container">
-<!-- Page-specific content goes here -->
-<h1>Projects</h1>
-<p>Course and personal projects. New items will be added as they are completed.</p>
-<section class="grid">
-<article class="card">
-<h3>Secure Login Form (Demo)</h3>
-<p>Accessible, semantic login form with client-side validation planned for later.</p>
-<div class="tags">
-<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Forms</span>
-</div>
-<p><a href="#">View details</a> · <a href="#">Repo</a></p>
-</article>
-<article class="card">
-<img src="assets/img/project1.png" alt="Screenshot of portfolio site" class="card-img">
-<h3>Portfolio Site</h3>
-<p>This website. Multi-page layout, CSS-only responsive nav, published via GitHub Pages.</p>
-<div class="tags">
-<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">GitHub Pages</span>
-</div>
-<p><a href="#">View details</a> · <a href="#">Repo</a></p>
-</article>
-<article class="card">
-<h3>Network Packet Analyzer</h3>
-<p>Python CLI tool that captures and inspects network packets, flags suspicious traffic patterns, and logs results to a PostgreSQL database.</p>
-<div class="tags">
-<span class="tag">Python</span><span class="tag">Networking</span><span class="tag">PostgreSQL</span>
-</div>
-<p><a href="#">View details</a> · <a href="#">Repo</a></p>
-</article>
-<article class="card">
-<h3>Password Strength Checker</h3>
-<p>Interactive web app that evaluates password entropy, checks against common breach lists, and provides real-time feedback to users.</p>
-<div class="tags">
-<span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span>
-</div>
-<p><a href="#">View details</a> · <a href="#">Repo</a></p>
-</article>
-<article class="card">
-<h3>Active Directory Lab</h3>
-<p>Virtual home lab environment simulating a corporate network with Microsoft Active Directory, group policies, and user access controls.</p>
-<div class="tags">
-<span class="tag">Active Directory</span><span class="tag">Windows Server</span><span class="tag">Networking</span>
-</div>
-<p><a href="#">View details</a> · <a href="#">Repo</a></p>
-</article>
-</section>
+  <h1>Projects</h1>
+  <p>Course and personal projects. New items will be added as they are completed.</p>
+
+  <section class="grid">
+
+    <!-- Portfolio Site (kept) -->
+    <article class="card">
+      <img src="assets/img/project1.png" alt="Screenshot of portfolio site" class="card-img">
+      <h3>Portfolio Site</h3>
+      <p>This website. Multi-page layout, CSS-only responsive nav, published via GitHub Pages.</p>
+      <div class="tags">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">GitHub Pages</span>
+      </div>
+      <p><a href="#">View details</a> · <a href="#">Repo</a></p>
+    </article>
+
+    <!-- Emoji Catalog -->
+    <article class="card">
+      <h3>Emoji Catalog Explorer</h3>
+      <p>A searchable, filterable catalog of emojis built as a dynamic single-page application. Users can browse by category, search by name or keyword, and copy emoji to clipboard with one click.</p>
+      <div class="tags">
+        <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">REST API</span>
+      </div>
+      <p><a href="#">View details</a> · <a href="#">Repo</a></p>
+    </article>
+
+    <!-- Canvas Clone -->
+    <article class="card">
+      <h3>Canvas LMS Clone</h3>
+      <p>A front-end clone of the Canvas learning management system interface. Recreates core dashboard views including course cards, navigation, and announcement layouts using semantic HTML and CSS.</p>
+      <div class="tags">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+      </div>
+      <p><a href="#">View details</a> · <a href="#">Repo</a></p>
+    </article>
+
+    <!-- HPS Survey Web Diagram Viewer -->
+    <article class="card">
+      <h3>HPS Survey Web Diagram Viewer</h3>
+      <p>Web-based diagram viewer for HPS survey data, hosted on a UW–Platteville server. Parses and visualizes a structured database of survey results as interactive diagrams. Not available for public demo due to internal server hosting; presented via documentation and final database deliverables.</p>
+      <div class="tags">
+        <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">JavaScript</span><span class="tag">UW–Platteville</span>
+      </div>
+      <p><a href="#">Documentation</a> · <a href="#">Repo</a></p>
+    </article>
+
+    <!-- Secure Contact Web Application -->
+    <article class="card">
+      <h3>Secure Contact Web Application</h3>
+      <p>Full-stack contact form application with a focus on security. The front end provides accessible, validated inputs while the back end enforces input sanitization, rate limiting, and secure data handling to prevent common web vulnerabilities.</p>
+      <div class="tags">
+        <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span>
+      </div>
+      <p><a href="#">View details</a> · <a href="#">Repo</a></p>
+    </article>
+
+    <!-- Shopping Catalog -->
+    <article class="card">
+      <h3>Shopping Catalog</h3>
+      <p>Interactive e-commerce product catalog with a React front end. Features product browsing, category filtering, a shopping cart with real-time quantity controls, and persistent cart state across sessions.</p>
+      <div class="tags">
+        <span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">CSS</span><span class="tag">Node.js</span>
+      </div>
+      <p><a href="#">View details</a> · <a href="#">Repo</a></p>
+    </article>
+
+  </section>
 </main>
+
 <footer class="site-footer">
-<div class="container">
-<small>© 2026 Brayan Kabore. All rights reserved.</small>
-</div>
+  <div class="container">
+    <small>© 2026 Brayan Kabore. All rights reserved.</small>
+  </div>
 </footer>
 </body>
 </html>
