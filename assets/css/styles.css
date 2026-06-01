@@ -52,8 +52,8 @@ gap: 20px; /* spacing between image and text */
 margin: 20px 0;
 }
 .profile-pic {
-width: 300px;
-height: 300px;
+width: 500px;
+height: 500px;
 border-radius: 50%; /* circular image */
 object-fit: cover; /* ensures proper scaling */
 flex-shrink: 0; /* prevents image from shrinking */
